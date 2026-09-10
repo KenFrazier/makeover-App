@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  background: #fdf0f5;
+  text-align: center;
+}
+
+#character-stage {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin: 20px auto;
+}
+
+#character-stage img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.item-layer {
+  display: none; /* hidden until an item is selected */
+}
+
+#item-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+#item-menu button {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Makeover App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="character-stage">
+    <!-- Base character image -->
+    <img id="base-layer" src="images/character-base.svg" alt="character">
+
+    <!-- One <img> per layer that can change. Start hidden (no src / display:none) -->
+    <img id="lips-layer" class="item-layer" alt="lips">
+    <img id="eyes-layer" class="item-layer" alt="eyes">
+    <img id="clothes-layer" class="item-layer" alt="clothes">
+  </div>
+
+  <div id="item-menu">
+    <!-- Buttons are built automatically by script.js from the itemData array -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
